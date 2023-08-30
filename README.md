@@ -1,4 +1,4 @@
-# Candel
+# Furniro
 - HTML
 - CSS
 - JavaScript
