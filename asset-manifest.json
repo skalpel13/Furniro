@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Furniro/static/css/main.a551a662.css",
+    "main.js": "/Furniro/static/js/main.cdf03e06.js",
+    "static/media/share-bg.png": "/Furniro/static/media/share-bg.e873238ba26b5b19c215.png",
+    "static/media/scandinavian-interior-mockup-wall-decal-background 1.jpg": "/Furniro/static/media/scandinavian-interior-mockup-wall-decal-background 1.41c76fab169fab4999be.jpg",
+    "static/media/shop-back.jpg": "/Furniro/static/media/shop-back.f07c0655a129b19c44af.jpg",
+    "index.html": "/Furniro/index.html",
+    "main.a551a662.css.map": "/Furniro/static/css/main.a551a662.css.map",
+    "main.cdf03e06.js.map": "/Furniro/static/js/main.cdf03e06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a551a662.css",
+    "static/js/main.cdf03e06.js"
+  ]
+}
