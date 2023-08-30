@@ -1,0 +1,75 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 207px;
+}
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+.footer-address {
+  display: flex;
+  flex-direction: column;
+}
+.footer-address a {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.footer-address p {
+  float: left;
+  color: #9f9f9f;
+  font-weight: 400;
+  width: 285px;
+}
+
+.footer-links,
+.footer-help {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #000;
+  gap: 46px;
+}
+
+.footer-links li:first-child,
+.footer-help li:first-child {
+  color: #9f9f9f;
+  margin-bottom: 9px;
+}
+
+.footer-subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.footer-subscribe p {
+  color: #9f9f9f;
+}
+
+.footer-subscribe-items button {
+  margin-left: 11px;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+}
+.footer-subscribe-items input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+.footer-subscribe-items input::placeholder {
+  color: #9f9f9f;
+  font-family: Poppins;
+  font-weight: 400;
+}
+.footer span {
+  width: 100%;
+  height: 1px;
+  background-color: #d9d9d9;
+  margin-bottom: 35px;
+}
+.footer-rule {
+  float: left;
+  font-weight: 400;
+}

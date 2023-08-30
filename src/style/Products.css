@@ -1,0 +1,29 @@
+.our-products {
+  margin: 0 102px 69px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.our-products--title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+  margin-bottom: 32px;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+.our-products-btn {
+  color: #b88e2f;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  border: 1px solid #b88e2f;
+  text-align: center;
+  padding: 12px 78px;
+}

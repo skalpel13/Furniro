@@ -1,0 +1,33 @@
+.rooms {
+  background-color: #fcf8f3;
+  display: flex;
+  flex-direction: row;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  margin-bottom: 67px;
+}
+
+.rooms-about {
+  padding: 179px 40px 179px 100px;
+}
+
+.rooms-slider {
+  width: 876px;
+}
+.rooms-about h2 {
+  color: #3a3a3a;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+}
+
+.rooms-about p {
+  color: #616161;
+  font-size: 16px;
+  line-height: 150%; /* 24px */
+  margin-bottom: 25px;
+}
+.rooms-about button {
+  font-size: 16px;
+  padding: 12px 36px;
+}

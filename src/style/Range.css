@@ -1,0 +1,36 @@
+.range {
+  margin: 0 131px 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.range h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+}
+.range p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.range-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.range-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.range-item img {
+  border-radius: 10px;
+}

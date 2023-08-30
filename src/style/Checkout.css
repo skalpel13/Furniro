@@ -1,0 +1,134 @@
+.checkout {
+  display: flex;
+  flex-direction: row;
+  margin: 63px 100px 53px 100px;
+  justify-content: space-between;
+  gap: 26px;
+}
+.checkout-input {
+  display: flex;
+  flex-direction: column;
+  padding: 35px 79px 71px 76px;
+  max-width: 608px;
+}
+.checkout-input h2 {
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+.checkout-input p {
+  margin-bottom: 22px;
+}
+.checkout-input input {
+  border-radius: 10px;
+  border: 1px solid #9f9f9f;
+  background: #fff;
+  height: 75px;
+  font-size: 20px;
+  padding: 20px 10px;
+  margin-bottom: 36px;
+}
+
+.checkout-input input::placeholder {
+  color: #9f9f9f;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.names {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 31px;
+}
+.names input {
+  max-width: 211px;
+}
+.checkout-sum {
+  display: flex;
+  flex-direction: column;
+  padding: 87px 37px;
+}
+.checkout-product-sum {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.checkout-product {
+  display: flex;
+  flex-direction: column;
+}
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.checkout-product-sum {
+  margin-bottom: 40px;
+}
+.checkout-product-sum h6 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+.checkout-product-name {
+  color: #9f9f9f;
+  margin-bottom: 22px;
+}
+.checkout-product p {
+  margin-bottom: 22px;
+}
+.subtotal-price {
+  font-weight: 300;
+  margin-bottom: 22px;
+}
+.subtotal-sum {
+  font-size: 24px;
+  font-weight: 700;
+  color: #b88e2f;
+}
+.sum-line {
+  background: #d9d9d9;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+input[type="radio"] {
+  color: black;
+}
+input[type="radio"] + label {
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.checkout-check-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 11px;
+}
+.transfer-rule {
+  color: #9f9f9f;
+  text-align: justify;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.privacy-rule {
+  text-align: justify;
+  font-weight: 300;
+  margin-bottom: 39px;
+}
+.privacy-rule a {
+  text-align: justify;
+  font-weight: 600;
+  margin-top: 11px;
+}
+.checkout-sum button {
+  border-radius: 15px;
+  border: 1px solid #000;
+  align-self: center;
+  padding: 17px 103px;
+}

@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+a {
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+}
+
+body {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 500;
+  color: #000;
+}
+.container {
+  max-width: 1440px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  margin: 0 auto;
+}
+
+.btn-all {
+  background-color: #b88e2f;
+  color: #ffffff;
+  font-family: Poppins;
+  font-weight: 600;
+}

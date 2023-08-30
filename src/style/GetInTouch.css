@@ -1,0 +1,112 @@
+.get-in-touch {
+  display: flex;
+  flex-direction: column;
+  gap: 135px;
+  margin-top: 98px;
+}
+.get-in-touch-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+.get-in-touch-text h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.get-in-touch-text p {
+  text-align: center;
+  color: #9f9f9f;
+  width: 644px;
+  font-weight: 400;
+}
+/* ----------------------------------- */
+.contact {
+  display: flex;
+  flex-direction: row;
+  margin: 0 191px 63px;
+  justify-content: space-between;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  padding: 0 46px 75px;
+}
+.info-item {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-self: self-start;
+}
+.info-item #img-1 {
+  width: 22px;
+  height: 27.592px;
+}
+.info-item #img-2 {
+  width: 30px;
+  height: 30px;
+}
+.info-item #img-3 {
+  width: 23px;
+  height: 23px;
+}
+.info-item div {
+  display: flex;
+  flex-direction: column;
+}
+.info-item h4 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.info-item p {
+  font-weight: 400;
+}
+.contact-input {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding: 0 52px;
+}
+.input-item {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.input-item p {
+  font-weight: 500;
+  text-align: left;
+}
+
+.input-item input,
+.input-item textarea {
+  width: 528px;
+  border-radius: 10px;
+  border: 1px solid #9f9f9f;
+  background: #fff;
+  padding: 25px 30px;
+  font-size: 20px;
+  font-family: Poppins;
+}
+.input-item textarea {
+  height: 120px;
+}
+.input-item input::placeholder,
+.input-item textarea::placeholder {
+  color: #9f9f9f;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contact-input button {
+  color: #fff;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 1px solid #b88e2f;
+  background: #b88e2f;
+  padding: 14px 89px;
+  width: 273px;
+  height: 55px;
+}

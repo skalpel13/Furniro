@@ -1,0 +1,22 @@
+.address-product {
+  background: #f9f1e7;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 31px 100px;
+}
+.address-product a {
+  color: #9f9f9f;
+}
+.address-product #img-1 {
+  padding-left: 14px;
+  padding-right: 24px;
+}
+.address-product #img-2 {
+  padding-left: 21px;
+  padding-right: 25px;
+}
+.address-product #img-3 {
+  padding-right: 34px;
+}

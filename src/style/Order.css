@@ -1,0 +1,43 @@
+.cart-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.item-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 10px;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.item-info > div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+.item-info h2 {
+  font-weight: 400;
+}
+.item-count {
+  font-weight: 300;
+}
+.item-times {
+  font-weight: 300;
+}
+.item-price {
+  color: #b88e2f;
+  font-size: 12px;
+  font-weight: 500;
+}
+.item-cancel {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

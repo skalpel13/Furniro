@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  margin: 30px 100px 30px 54px;
+}
+
+.header-name a {
+  font-family: Montserrat;
+  font-size: 34px;
+
+  font-weight: 700;
+}
+
+.header-list {
+  display: flex;
+  gap: 75px;
+  cursor: pointer;
+}
+
+.header-btns {
+  display: flex;
+  gap: 45px;
+}
+
+.header-btns img {
+  cursor: pointer;
+}

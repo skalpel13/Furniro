@@ -1,0 +1,42 @@
+.new-collection {
+  background: url("../images/scandinavian-interior-mockup-wall-decal-background 1.jpg");
+  background-size: cover; /* Масштабирование фона */
+  background-repeat: no-repeat; /* Отключение повторения */
+  background-position: center center; /* Позиционирование фона */
+  width: 100%;
+  padding: 153px 58px 117px 739px;
+  margin-bottom: 56px;
+}
+
+.new-collection-box {
+  background-color: #fff3e3;
+
+  padding: 62px 43px 37px 40px;
+  border-radius: 10px;
+}
+
+.new-collection-pre {
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #333;
+  margin-bottom: 4px;
+}
+.new-collection-title {
+  color: #b88e2f;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 65px;
+  margin-bottom: 17px;
+}
+.new-collection-about {
+  color: #333;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 46px;
+}
+
+.btn-buy {
+  padding: 25px 72px;
+  font-weight: 700;
+  text-transform: uppercase;
+}

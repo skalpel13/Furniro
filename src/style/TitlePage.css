@@ -1,0 +1,28 @@
+.nav-title {
+  display: flex;
+  flex-direction: column;
+  background: url("../images/shop-back.jpg");
+  background-size: cover; /* Масштабирование фона */
+  background-repeat: no-repeat; /* Отключение повторения */
+  background-position: center center; /* Позиционирование фона */
+  width: 100%;
+  height: 316px;
+  align-items: center;
+  justify-content: center;
+}
+.way-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-title h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.nav-1 {
+  font-weight: 500;
+}
+.nav-2 {
+  font-weight: 300;
+}
